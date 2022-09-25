@@ -1,0 +1,39 @@
+{
+  "name": "learn-three",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "check": "tsc --noEmit",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caorushizi/learn-three-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caorushizi/learn-three-js/issues"
+  },
+  "homepage": "https://github.com/caorushizi/learn-three-js#readme",
+  "devDependencies": {
+    "@parcel/config-default": "^2.7.0",
+    "@parcel/transformer-typescript-tsc": "^2.7.0",
+    "@parcel/validator-typescript": "^2.7.0",
+    "@types/three": "^0.144.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "eslint": "^8.24.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "parcel": "^2.7.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "three": "^0.144.0"
+  }
+}
